@@ -1,0 +1,24 @@
+{
+    "name": "autlo/log-db",
+    "description": "Logging database management.",
+    "license": "proprietary",
+    "homepage": "http://autlo.com/",
+    "authors": [
+        {
+            "name": "Rain Ramm",
+            "email": "rain@autlo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "~2.3",
+        "doctrine/doctrine-orm-module": "dev-master",
+        "doctrine/doctrine-module": "dev-master",
+        "doctrine/orm": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Temperature\\": "src/"
+        }
+    }
+}
